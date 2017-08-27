@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../src/index.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,0BAA0B,EAAE,MAAM,iCAAiC,CAAC;AAC7E,OAAO,EAAE,2BAA2B,EAAE,MAAM,kCAAkC,CAAC","file":"index.js","sourceRoot":"","sourcesContent":["export { AngularModuleStarterModule } from './angular-module-starter.module';\nexport { AngularModuleStarterService } from './angular-module-starter.service';\n"]}

@@ -1,0 +1,29 @@
+{
+  "name": "6-comp-test",
+  "version": "1.0.0",
+  "description": "npm test of 6 pixel component",
+  "main": "bundles/angular-module-starter.umd.js",
+  "module": "index.js",
+  "typings": "index.d.ts",
+  "scripts": {},
+  "keywords": [
+    "angular"
+  ],
+  "author": "Jason Jacobson",
+  "contributors": [],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xjdesigns/6CompTest.git"
+  },
+  "homepage": "https://github.com/xjdesigns/6CompTest",
+  "bugs": {
+    "url": "https://github.com/xjdesigns/6CompTest/issues"
+  },
+  "peerDependencies": {
+    "@angular/core": "^2.4.0",
+    "reflect-metadata": "^0.1.8",
+    "rxjs": "^5.0.3",
+    "zone.js": "^0.7.2"
+  }
+}
