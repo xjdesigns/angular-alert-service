@@ -1,9 +1,7 @@
 import { Component } from '@angular/core';
-// import { AngularModuleStarterService } from './angular-module-starter.service'
 var JasonRocksComponent = (function () {
     function JasonRocksComponent() {
-        this.message = 'You the fucking man!';
-        alert('you got this shit playa');
+        this.message = 'Message from the contructor.';
     }
     return JasonRocksComponent;
 }());
@@ -11,7 +9,7 @@ export { JasonRocksComponent };
 JasonRocksComponent.decorators = [
     { type: Component, args: [{
                 selector: 'jason-rocks',
-                template: "\n        <h1>{{message}}</h1>\n        <p>Fuck some more bitches</p>\n    "
+                template: "\n        <h1>{{message}}</h1>\n        <p>Another component to show you have multiple elements now in a single package.</p>\n    "
             },] },
 ];
 /** @nocollapse */

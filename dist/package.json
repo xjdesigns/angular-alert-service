@@ -1,6 +1,6 @@
 {
   "name": "6-comp-test",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "npm test of 6 pixel component",
   "main": "bundles/angular-module-starter.umd.js",
   "module": "index.js",

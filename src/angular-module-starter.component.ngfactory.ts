@@ -27,7 +27,10 @@ export function View_AngularModuleStarterComponent_0(l:any):import0.ɵViewDefini
     )),
     (l()(),import0.ɵted((null as any),['\n        '])),
     (l()(),import0.ɵeld(0,(null as any),(null as any),1,'p',([] as any[]),(null as any),(null as any),(null as any),(null as any),(null as any))),
-    (l()(),import0.ɵted((null as any),['Fuck you Bitch'])),
+    (l()(),import0.ɵted((null as any),['This is working and pulling in the message from a service.'])),
+    (l()(),import0.ɵted((null as any),['\n        '])),
+    (l()(),import0.ɵeld(0,(null as any),(null as any),1,'p',([] as any[]),(null as any),(null as any),(null as any),(null as any),(null as any))),
+    (l()(),import0.ɵted((null as any),['See the source code for working example.'])),
     (l()(),import0.ɵted((null as any),['\n    ']))
   ]
   ,(null as any),(ck,v) => {
@@ -44,4 +47,4 @@ function View_AngularModuleStarterComponent_Host_0(l:any):import0.ɵViewDefiniti
   ,(null as any),(null as any));
 }
 export const AngularModuleStarterComponentNgFactory:import0.ComponentFactory<import1.AngularModuleStarterComponent> = import0.ɵccf('angular-module-starter',import1.AngularModuleStarterComponent,View_AngularModuleStarterComponent_Host_0,{},{},([] as any[]));
-//# sourceMappingURL=data:application/json;base64,eyJmaWxlIjoiL1VzZXJzL21hY2Jvb2twcm8vUHJvamVjdHMvNkNvbXBUZXN0L3NyYy9hbmd1bGFyLW1vZHVsZS1zdGFydGVyLmNvbXBvbmVudC5uZ2ZhY3RvcnkudHMiLCJ2ZXJzaW9uIjozLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyJuZzovLy9Vc2Vycy9tYWNib29rcHJvL1Byb2plY3RzLzZDb21wVGVzdC9zcmMvYW5ndWxhci1tb2R1bGUtc3RhcnRlci5jb21wb25lbnQudHMiLCJuZzovLy9Vc2Vycy9tYWNib29rcHJvL1Byb2plY3RzLzZDb21wVGVzdC9zcmMvYW5ndWxhci1tb2R1bGUtc3RhcnRlci5jb21wb25lbnQudHMuQW5ndWxhck1vZHVsZVN0YXJ0ZXJDb21wb25lbnQuaHRtbCIsIm5nOi8vL1VzZXJzL21hY2Jvb2twcm8vUHJvamVjdHMvNkNvbXBUZXN0L3NyYy9hbmd1bGFyLW1vZHVsZS1zdGFydGVyLmNvbXBvbmVudC50cy5Bbmd1bGFyTW9kdWxlU3RhcnRlckNvbXBvbmVudF9Ib3N0Lmh0bWwiXSwic291cmNlc0NvbnRlbnQiOlsiICIsIlxuICAgICAgICA8aDE+e3ttZXNzYWdlfX08L2gxPlxuICAgICAgICA8cD5GdWNrIHlvdSBCaXRjaDwvcD5cbiAgICAiLCI8YW5ndWxhci1tb2R1bGUtc3RhcnRlcj48L2FuZ3VsYXItbW9kdWxlLXN0YXJ0ZXI+Il0sIm1hcHBpbmdzIjoiQUFBQTs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7SUNBQTtJQUNRO0lBQUk7TUFBQTtNQUFBO0lBQUE7SUFBQTtJQUFnQjtJQUNwQjtJQUFHO0lBQWtCOzs7O0lBRGpCO0lBQUE7Ozs7O0lDRFo7Z0JBQUE7Ozs7In0=
+//# sourceMappingURL=data:application/json;base64,eyJmaWxlIjoiL1VzZXJzL21hY2Jvb2twcm8vUHJvamVjdHMvNkNvbXBUZXN0L3NyYy9hbmd1bGFyLW1vZHVsZS1zdGFydGVyLmNvbXBvbmVudC5uZ2ZhY3RvcnkudHMiLCJ2ZXJzaW9uIjozLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyJuZzovLy9Vc2Vycy9tYWNib29rcHJvL1Byb2plY3RzLzZDb21wVGVzdC9zcmMvYW5ndWxhci1tb2R1bGUtc3RhcnRlci5jb21wb25lbnQudHMiLCJuZzovLy9Vc2Vycy9tYWNib29rcHJvL1Byb2plY3RzLzZDb21wVGVzdC9zcmMvYW5ndWxhci1tb2R1bGUtc3RhcnRlci5jb21wb25lbnQudHMuQW5ndWxhck1vZHVsZVN0YXJ0ZXJDb21wb25lbnQuaHRtbCIsIm5nOi8vL1VzZXJzL21hY2Jvb2twcm8vUHJvamVjdHMvNkNvbXBUZXN0L3NyYy9hbmd1bGFyLW1vZHVsZS1zdGFydGVyLmNvbXBvbmVudC50cy5Bbmd1bGFyTW9kdWxlU3RhcnRlckNvbXBvbmVudF9Ib3N0Lmh0bWwiXSwic291cmNlc0NvbnRlbnQiOlsiICIsIlxuICAgICAgICA8aDE+e3ttZXNzYWdlfX08L2gxPlxuICAgICAgICA8cD5UaGlzIGlzIHdvcmtpbmcgYW5kIHB1bGxpbmcgaW4gdGhlIG1lc3NhZ2UgZnJvbSBhIHNlcnZpY2UuPC9wPlxuICAgICAgICA8cD5TZWUgdGhlIHNvdXJjZSBjb2RlIGZvciB3b3JraW5nIGV4YW1wbGUuPC9wPlxuICAgICIsIjxhbmd1bGFyLW1vZHVsZS1zdGFydGVyPjwvYW5ndWxhci1tb2R1bGUtc3RhcnRlcj4iXSwibWFwcGluZ3MiOiJBQUFBOzs7Ozs7Ozs7Ozs7Ozs7Ozs7OztJQ0FBO0lBQ1E7SUFBSTtNQUFBO01BQUE7SUFBQTtJQUFBO0lBQWdCO0lBQ3BCO0lBQUc7SUFBOEQ7SUFDakU7SUFBRztJQUE0Qzs7OztJQUYzQztJQUFBOzs7OztJQ0RaO2dCQUFBOzs7OyJ9

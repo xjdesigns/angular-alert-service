@@ -2,6 +2,20 @@
 
 > A start for Angular modules
 
+This uses systemjs. Below add the module to your mapping.
+``` javascript
+map: {
+  app: 'app',
+  // angular bundles
+  ...
+  '6-comp-test': 'node_modules/6-comp-test/bundles/angular-module-starter.umd.js'
+}
+```
+Then add this to your app module.
+```javascript
+import { AngularModuleStarterModule } from '6-comp-test';
+```
+
 ## Credits
 
 This project is basically a stripped down version of

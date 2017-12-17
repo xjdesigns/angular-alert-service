@@ -11,7 +11,7 @@ export { AngularModuleStarterComponent };
 AngularModuleStarterComponent.decorators = [
     { type: Component, args: [{
                 selector: 'angular-module-starter',
-                template: "\n        <h1>{{message}}</h1>\n        <p>Fuck you Bitch</p>\n    "
+                template: "\n        <h1>{{message}}</h1>\n        <p>This is working and pulling in the message from a service.</p>\n        <p>See the source code for working example.</p>\n    "
             },] },
 ];
 /** @nocollapse */

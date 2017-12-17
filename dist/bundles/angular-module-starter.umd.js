@@ -29,7 +29,7 @@ var AngularModuleStarterComponent = (function () {
 AngularModuleStarterComponent.decorators = [
     { type: _angular_core.Component, args: [{
                 selector: 'angular-module-starter',
-                template: "\n        <h1>{{message}}</h1>\n        <p>Fuck you Bitch</p>\n    "
+                template: "\n        <h1>{{message}}</h1>\n        <p>This is working and pulling in the message from a service.</p>\n        <p>See the source code for working example.</p>\n    "
             },] },
 ];
 /** @nocollapse */
@@ -37,18 +37,16 @@ AngularModuleStarterComponent.ctorParameters = function () { return [
     { type: AngularModuleStarterService, },
 ]; };
 
-// import { AngularModuleStarterService } from './angular-module-starter.service'
 var JasonRocksComponent = (function () {
     function JasonRocksComponent() {
-        this.message = 'You the fucking man!';
-        alert('you got this shit playa');
+        this.message = 'Message from the contructor.';
     }
     return JasonRocksComponent;
 }());
 JasonRocksComponent.decorators = [
     { type: _angular_core.Component, args: [{
                 selector: 'jason-rocks',
-                template: "\n        <h1>{{message}}</h1>\n        <p>Fuck some more bitches</p>\n    "
+                template: "\n        <h1>{{message}}</h1>\n        <p>Another component to show you have multiple elements now in a single package.</p>\n    "
             },] },
 ];
 /** @nocollapse */

@@ -5,7 +5,8 @@ import { AngularModuleStarterService } from './angular-module-starter.service'
   selector: 'angular-module-starter',
   template: `
         <h1>{{message}}</h1>
-        <p>Fuck you Bitch</p>
+        <p>This is working and pulling in the message from a service.</p>
+        <p>See the source code for working example.</p>
     `
 })
 export class AngularModuleStarterComponent {
