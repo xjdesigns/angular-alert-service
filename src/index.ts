@@ -1,2 +1,2 @@
-export { AngularModuleStarterModule } from './angular-module-starter.module';
-export { AngularModuleStarterService } from './angular-module-starter.service';
+export { SpxAlertServiceModule } from './spx-alert.module';
+export { SpxAlertService } from './alert.service';

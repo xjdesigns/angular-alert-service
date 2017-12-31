@@ -1,10 +1,13 @@
 export default {
   entry: 'dist/index.js',
-  dest: 'dist/bundles/angular-module-starter.umd.js',
+  dest: 'dist/bundles/6px-angular-alert-service.umd.js',
   sourceMap: false,
   format: 'umd',
-  moduleName: 'ng.moduleStarter',
+  moduleName: 'ng.spxAlertModule',
   globals: {
-    '@angular/core': 'ng.core'
+    '@angular/core': 'ng.core',
+    '@angular/router': 'ng.router',
+    '@angular/platform-browser': 'ng.platformBrowser',
+    'rxjs/Subject': 'rxjs.Subject'
   }
 }

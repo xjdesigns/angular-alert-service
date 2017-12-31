@@ -1,10 +1,10 @@
-# 6px Angular Module Starter
+# 6px Angular Alert Service
 
 > A start for Angular modules
 
 ## Getting started
 
-This provides a starter for creating a Angular 2+ module bundle. All files you need live in /src.
+This provides a alert service for use with Angular 4+ apps using 6px UI. All files you need live in /src.
 
 Note: There is a `package.json` file inside of the `/dist` which is needed for publishing.
 
@@ -25,22 +25,75 @@ To develop locally you want to do the following:
 
 This creates a symlink to your global node_modules. Then from your working directory:
 
-`npm link 6-comp-test`
+`npm link 6px-alert-service`
 
 Once you are linked to your local copy of the module. In your `systemjs.config.js` file you need to add you mapping.
 ```javascript
+
 map: {
   app: 'app',
   // angular bundles
   ...
-  '6-comp-test': 'node_modules/6-comp-test/bundles/angular-module-starter.umd.js'
+  '6px-alert-service': 'node_modules/6px-alert-service/bundles/6px-angular-alert-service.umd.js'
 }
 ```
 > NOTE: The name of your bundle is created inside your `rollup.config.js` file. Rollup us used for creating the umd module.
 
-Then add this to your app module.
+Then add this to your app.module.ts file.
 ```javascript
-import { AngularModuleStarterModule } from '6-comp-test';
+
+import { SpxAlertServiceModule } from '6px-alert-service';
+
+@NgModule({
+  imports: [
+    SpxAlertServiceModule
+    ...
+  ]
+})
+```
+
+Add the tag to your root .html file, this displays your alerts.
+```html
+
+<spx-alert></spx-alert>
+```
+
+Now you can use this inside your application by importing the service and calling it's methods.
+```javascript
+
+Add an alert:
+@params message: string
+@params type: string['success', 'fail', 'info']
+@params callback: Function
+addAlert(message, type, callback);
+
+
+Remove an alert:
+@params index: number
+removeAlertByIndex(index);
+
+
+Clear all:
+clearAll();
+```
+
+
+Example -
+``` javascript
+
+import { SpxAlertService } from '6px-alert-service';
+
+export class AppComponent {
+  constructor(private spxAlert: SpxAlertService) {}
+
+  createAlert() {
+    this.spxAlert.addAlert('Toast Message', 'success', this.callbackMethod);
+  }
+
+  callbackMethod() {
+    alert('Alert the callback');
+  }
+}
 ```
 
 

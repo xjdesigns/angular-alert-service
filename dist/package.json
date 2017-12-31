@@ -1,8 +1,8 @@
 {
-  "name": "6-comp-test",
-  "version": "1.0.1",
-  "description": "npm test of 6 pixel component",
-  "main": "bundles/angular-module-starter.umd.js",
+  "name": "6px-alert-service",
+  "version": "0.0.1",
+  "description": "Alert service for Angular 4+ using 6pixels UI",
+  "main": "bundles/6px-angular-alert-service.umd.js",
   "module": "index.js",
   "typings": "index.d.ts",
   "scripts": {},
@@ -14,14 +14,17 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/xjdesigns/6CompTest.git"
+    "url": "https://github.com/xjdesigns/angular-alert-service.git"
   },
-  "homepage": "https://github.com/xjdesigns/6CompTest",
+  "homepage": "https://github.com/xjdesigns/angular-alert-service",
   "bugs": {
-    "url": "https://github.com/xjdesigns/6CompTest/issues"
+    "url": "https://github.com/xjdesigns/angular-alert-service/issues"
   },
   "peerDependencies": {
-    "@angular/core": "^2.4.0",
+    "@angular/core": "~4.0.0",
+    "@angular/router": "~4.0.0",
+    "@angular/common": "~4.0.0",
+    "@angular/platform-browser": "~4.0.0",
     "reflect-metadata": "^0.1.8",
     "rxjs": "^5.0.3",
     "zone.js": "^0.7.2"
